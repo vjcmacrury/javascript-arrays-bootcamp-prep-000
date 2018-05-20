@@ -40,3 +40,4 @@ function removeElementFromBeginningOfArray(array7) {
   array7 = array7.slice(1)
   return(array7)
 }
+
