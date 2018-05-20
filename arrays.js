@@ -37,12 +37,18 @@ function destructivelyRemoveElementFromBeginningOfArray(array6) {
 
 var array7 = [7, 8, 9]
 function removeElementFromBeginningOfArray(array7) {
-  array7 = array7.slice(1)
+  array8 = array7.slice(1)
   return(array7)
 }
 
-var array8 = [10, 11, 12]
-function destructivelyRemoveElementFromEndOfArray(array8) {
-  array8.pop()
-  return(array8)
+var array9 = [10, 11, 12]
+function destructivelyRemoveElementFromEndOfArray(array9) {
+  array9.pop()
+  return(array9)
+}
+
+var array10 = [13, 14, 15]
+function destructivelyRemoveElementFromEndOfArray(array10) {
+  array11 = array10.slice(0, array9.length - 1)
+  return(array11)
 }
